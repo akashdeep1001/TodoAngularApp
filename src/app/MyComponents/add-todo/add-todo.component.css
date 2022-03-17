@@ -1,0 +1,13 @@
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.container{
+    border: 2px solid white;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+

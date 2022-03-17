@@ -1,0 +1,21 @@
+.strike{
+    text-decoration: line-through red;
+    
+}
+.main{
+    
+    width: 32%;
+    float: left;
+    margin: 0px 5px 10px 5px;
+}
+.card{
+            text-align: center;
+            border-radius: 25px;
+            background-image: url(../../../assets/todobg.JPG);
+            background-size: cover;
+            text-shadow: 1px;
+            text-decoration: wavy;
+            
+            
+            
+}

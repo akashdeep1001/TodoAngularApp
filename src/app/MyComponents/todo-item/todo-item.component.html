@@ -1,0 +1,19 @@
+<div class="main">
+  <!-- <div class="row"> -->
+  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+  <!-- <div class="col-lg-4 col-sm-4 col-md-4">  -->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title" [ngClass]="{'strike': !todo.active}">{{todo.title}}</h5>
+      <p class="card-text" [ngClass]="{'strike': !todo.active}">{{todo.desc}}</p>
+      <hr>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check{{i}}" (click)="onCheckboxClick(todo)"
+          [checked]="!todo.active">
+        <label class="form-check-label" for="check{{i}}">Done</label>
+      </div>
+      <button class="btn btn-danger" (click)="onClick(todo)">Delete</button>
+    </div>
+  </div>
+  <!-- </div>
+</div> -->
